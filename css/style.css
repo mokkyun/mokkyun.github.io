@@ -1,0 +1,46 @@
+body {  
+  width: 960px;
+  margin: 0 auto;
+  color: white;
+  background-color: #1D1F20;
+  font-family: Gotham, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 120px auto 10px;
+}
+
+h3 {
+  font-weight: normal;
+  text-align: center;
+  margin-top: 50px;
+}
+
+nav ul {
+  text-align: right;
+
+}
+
+nav ul li {
+  display: inline;
+  padding: 20px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: darkgrey;
+}
+
+#container {
+  width: 0 auto;
+}
+ 
