@@ -40,7 +40,14 @@ nav ul li a:hover {
   color: darkgrey;
 }
 
-#container {
-  width: 0 auto;
+h3 a {
+color: grey;
 }
+
+h3 a:hover {
+text-decoration: underline;
+color: darkgrey;
+}
+
+
  
