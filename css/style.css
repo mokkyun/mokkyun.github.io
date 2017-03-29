@@ -30,23 +30,20 @@ nav ul li {
   font-weight: bold;
 }
 
-nav ul li a {
-  color: white;
+
+a {
   text-decoration: none;
+  color: grey;
 }
 
-nav ul li a:hover {
+a:hover {
   text-decoration: underline;
   color: darkgrey;
 }
 
-h3 a {
-color: grey;
-}
+a:visited {
+  color: rebeccapurple;
 
-h3 a:hover {
-text-decoration: underline;
-color: darkgrey;
 }
 
 
