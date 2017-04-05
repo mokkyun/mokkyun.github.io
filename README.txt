@@ -1,1 +1,0 @@
-My website. You can find this a similar copy at http://codepen.io/mokkyun/pen/KaQBEV.
