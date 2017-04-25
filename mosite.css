@@ -1,0 +1,38 @@
+/* CSS for Portfolio */
+
+html,
+body,
+#container {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background: #1d1e1f;
+}
+
+#container {
+    color: white;
+    text-align: center;
+    padding: 7% 10%;
+    vertical-align: middle;
+}
+
+.navbar {
+     margin-bottom: 20px;
+}
+
+h1 {
+    letter-spacing: -1px;
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+.lead {
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+p + p {
+    font-size: 18px;
+    padding: 5px;
+}
+
