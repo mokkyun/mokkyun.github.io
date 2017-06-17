@@ -23,7 +23,7 @@ body,
 
 @media(max-width: 768px) {
     .navbar-inverse {
-        background: black;
+        background: #333;
     }
 }
 
