@@ -1,10 +1,10 @@
-/* CSS for Portfolio */
+/*Navbar CSS*/
 
 body,
 #container {
     height: 100%;
     font-family: 'Lato', sans-serif;
-    background: #1d1e1f;
+    background: #272833;
     text-align: center;
     padding: 50px 10%;
     vertical-align: middle;
@@ -34,6 +34,8 @@ body,
     }
 }
 
+/*Index Page CSS*/
+
 h1 {
     letter-spacing: -1px;
     font-size: 60px;
@@ -43,6 +45,7 @@ h1 {
 h2 {
     font-size: 44px;
     margin: 20px 0;
+    padding-bottom: 20px;
 }
 
 .lead {
@@ -52,6 +55,26 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 24px;
     padding: 5px;
 }
+
+
+
+img{
+    width:100%;
+    max-width:100px;
+    margin: 10px;
+}
+
+/*Icons CSS*/
+.fa {
+color: azure;
+}
+
+[class^=devicon-] {
+    font-size: 80px;
+}
+
+
+/* About CSS Page */
