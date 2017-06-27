@@ -18,21 +18,27 @@ body,
 }
 
 .navbar-inverse li {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 @media(max-width: 768px) {
-    .navbar-inverse {
-        background: #333;
+    .navbar li {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        display: inline-block;
+        margin-top: 15px;
+        
     }
 }
 
 @media (min-width: 768px) {
     .navbar li {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
+
 
 /*Index Page CSS*/
 
@@ -49,32 +55,40 @@ h2 {
 }
 
 .lead {
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 20px auto;
+    margin: 15px;
     font-size: 24px;
 }
 
 p {
     font-size: 24px;
-    padding: 5px;
-}
-
-
-
-img{
-    width:100%;
-    max-width:100px;
+    padding: 10px;
     margin: 10px;
 }
 
+
 /*Icons CSS*/
+
 .fa {
-color: azure;
+    color: azure;
 }
 
 [class^=devicon-] {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 
 /* About CSS Page */
+
+.flexcontainer {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.cell {
+    flex: 0 0 25%;
+    height: 50px;
+    margin-bottom: 25px;
+}
