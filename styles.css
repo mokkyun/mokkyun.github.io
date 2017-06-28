@@ -35,10 +35,11 @@ body {
     .navbar li {
         padding-left: 30px;
         padding-right: 30px;
-    }   
+    }
+    .portfolio {
+        margin: 0 130px;
+    }
 }
-
-
 
 
 /*Index CSS*/
@@ -102,7 +103,6 @@ p {
     font-size: 18px;
     max-width: 66%;
     margin: 0 auto;
-
 }
 
 h3 {
