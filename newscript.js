@@ -1,5 +1,5 @@
 $('#fullpage').fullpage({
-    anchors: ['section1','section2'],
+    anchors: ['Home','About'],
     autoScrolling: false,
     fitToSection: false
 });
