@@ -75,7 +75,7 @@ p {
 /*About Page CSS*/
 
 [class^=devicon-] {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .flexcontainer {
@@ -92,7 +92,8 @@ p {
 }
 
 .innerCell {
-    font-size: 16px;
+    font-size: 20px;
+    margin: auto;
 }
 
 .picMe {
