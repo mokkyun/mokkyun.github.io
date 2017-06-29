@@ -86,7 +86,7 @@ p {
 }
 
 .cell {
-    flex: 0 0 25%;
+    flex: 0 0 24%;
     height: 50px;
     margin: 30px auto;
     width: 100%;
@@ -94,7 +94,7 @@ p {
 
 .innerCell {
     font-size: 18px;
-    margin: auto;
+    margin: auto 0;
 }
 
 .picMe {
