@@ -1,6 +1,4 @@
-/*Navbar CSS*/
-
-body, #container {
+body {
   height: 100%;
   font-family: 'Lato', sans-serif;
   background: #272833;
@@ -8,14 +6,17 @@ body, #container {
   padding: 50px 10%;
   vertical-align: middle;
   color: azure;
+  box-sizing: border-box;
 }
+
+/* Navbar CSS*/
 
 .navbar-inverse {
   margin-bottom: 20px;
   background: none;
   border: none;
   li {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
@@ -34,24 +35,25 @@ body, #container {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .portfolio {
+    margin: 0 130px;
+  }
 }
 
-/*Index Page CSS*/
+/*Index CSS*/
 
 h1 {
   letter-spacing: -1px;
-  font-size: 60px;
-  margin: 60px 0 30px;
+  font-size: 48px;
+  margin-top: 50px;
 }
 
 h2 {
-  font-size: 44px;
-  margin: 20px 0;
-  padding-bottom: 20px;
+  font-size: 24px;
+  margin: 35px 0 70px;
 }
 
 .lead {
-  padding: 20px auto;
   margin: 15px;
   font-size: 24px;
 }
@@ -62,33 +64,50 @@ p {
   margin: 10px;
 }
 
-/*Icons CSS*/
-
 .fa {
   color: azure;
 }
 
-[class^=devicon-] {
-  font-size: 60px;
-}
+/*About Page CSS*/
 
-/* About CSS Page */
+[class^=devicon-] {
+  font-size: 57px;
+}
 
 .flexcontainer {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .cell {
-  flex: 0 0 25%;
+  flex: 0 0 24%;
   height: 50px;
-  margin-bottom: 25px;
+  margin: 30px auto;
+  width: 100%;
+}
+
+.innerCell {
+  font-size: 18px;
+  margin: auto 0;
 }
 
 .picMe {
+  margin-top: 20px;
   max-width: 200px;
-  max-height: auto;
   border-radius: 50%;
+}
+
+.describeMe {
+  font-family: 'Pridi', serif;
+  font-size: 18px;
+  max-width: 66%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }

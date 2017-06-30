@@ -1,117 +1,111 @@
 body {
-    height: 100%;
-    font-family: 'Lato', sans-serif;
-    background: #272833;
-    text-align: center;
-    padding: 50px 10%;
-    vertical-align: middle;
-    color: azure;
-    box-sizing: border-box;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  background: #272833;
+  text-align: center;
+  padding: 50px 10%;
+  vertical-align: middle;
+  color: azure;
+  box-sizing: border-box;
 }
 
-
 /* Navbar CSS*/
-
 .navbar-inverse {
-    margin-bottom: 20px;
-    background: none;
-    border: none;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
 }
 
 .navbar-inverse li {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
-    .navbar li {
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-        display: inline-block;
-        margin-top: 15px;
-    }
+  .navbar li {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+  }
 }
 
 @media (min-width: 768px) {
-    .navbar li {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .portfolio {
-        margin: 0 130px;
-    }
+  .navbar li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .portfolio {
+    margin: 0 130px;
+  }
 }
 
-
 /*Index CSS*/
-
 h1 {
-    letter-spacing: -1px;
-    font-size: 48px;
-    margin-top: 50px;
+  letter-spacing: -1px;
+  font-size: 48px;
+  margin-top: 50px;
 }
 
 h2 {
-    font-size: 24px;
-    margin: 35px 0 70px;
+  font-size: 24px;
+  margin: 35px 0 70px;
 }
 
 .lead {
-    margin: 15px;
-    font-size: 24px;
+  margin: 15px;
+  font-size: 24px;
 }
 
 p {
-    font-size: 24px;
-    padding: 10px;
-    margin: 10px;
+  font-size: 24px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .fa {
-    color: azure;
+  color: azure;
 }
 
-
 /*About Page CSS*/
-
 [class^=devicon-] {
-    font-size: 57px;
+  font-size: 57px;
 }
 
 .flexcontainer {
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .cell {
-    flex: 0 0 24%;
-    height: 50px;
-    margin: 30px auto;
-    width: 100%;
+  flex: 0 0 24%;
+  height: 50px;
+  margin: 30px auto;
+  width: 100%;
 }
 
 .innerCell {
-    font-size: 18px;
-    margin: auto 0;
+  font-size: 18px;
+  margin: auto 0;
 }
 
 .picMe {
-    margin-top: 20px;
-    max-width: 200px;
-    border-radius: 50%;
+  margin-top: 20px;
+  max-width: 200px;
+  border-radius: 50%;
 }
 
 .describeMe {
-    font-family: 'Pridi', serif;
-    font-size: 18px;
-    max-width: 66%;
-    margin: 0 auto;
+  font-family: 'Pridi', serif;
+  font-size: 18px;
+  max-width: 66%;
+  margin: 0 auto;
 }
 
 h3 {
-    font-size: 28px;
-    margin-top: 25px;
-    margin-bottom: 35px;
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
