@@ -56,7 +56,6 @@ h2 {
 }
 
 .lead {
-    padding: 18px auto;
     margin: 15px;
     font-size: 24px;
 }
@@ -98,9 +97,9 @@ p {
 }
 
 .picMe {
+    box-sizing: border-box;
     margin-top: 20px;
     max-width: 200px;
-    max-height: auto;
     border-radius: 50%;
 }
 
