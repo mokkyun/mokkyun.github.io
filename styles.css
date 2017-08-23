@@ -31,14 +31,13 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .navbar li {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .portfolio {
-    margin: 0 130px;
-  }
+.navbar li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.portfolio {
+  margin: 0 130px;
 }
 
 /*Index CSS*/
