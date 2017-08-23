@@ -9,7 +9,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/fullpagejs/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="fullpagejs/jquery.fullPage.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pridi" rel="stylesheet">
@@ -19,58 +19,51 @@
 
 
     <link rel="shortcut icon" href="/img/favicon.ico">
-    <link rel="icon" sizes="16x16 32x32 64x64" href="/img/favicon.ico">
-    <link rel="icon" type="image/png" sizes="196x196" href="/img/favicon-192.png">
-    <link rel="icon" type="image/png" sizes="160x160" href="/img/favicon-160.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="/img/favicon-64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16.png">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="img/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="img/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
     <link rel="apple-touch-icon" href="/img/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon-180.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="mg/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-180.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="/img/favicon-144.png">
+    <meta name="msapplication-TileImage" content="img/favicon-144.png">
     <meta name="msapplication-config" content="/browserconfig.xml">
 </head>
 
 <body>
+  <nav class="navbar navbar-inverse">
+      <div class="container">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="nav-link"><a href="#About">About</a></li>
+              <li class="nav-link"><a href="https://medium.com/@mokyox" target="_blank" rel="noopener noreferrer">Blog</a></li>
+          </ul>
+      </div>
+  </nav>
     <div id="fullpage">
-        <div class="section">
-        <nav class="navbar navbar-inverse">
-            <div class="container">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-link"><a href="#About">About</a></li>
-                    <li class="nav-link"><a href="https://medium.com/@mokyox" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                </ul>
-            </div>
-        </nav>
-
+        <div class="section section-1">
             <div class="container-fluid">
-                <h1 class="text-center">Mo Jama</h1>
-                <div class="row">
-                    <div class="col-md-12">
+                <h1 class="text-center myName">Mo Jama</h1>
                         <h2>Aspiring Web Developer</h2>
-                    </div>
-                </div>
-
-                <div class="row portfolio">
-                    <div class="col-md-4 col-sm-4">
+                <div class="portfolio">
+                    <div>
                         <a href="https://github.com/mokyox"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
                         <p>GitHub</p>
                     </div>
-                    <div class="col-md-4 col-sm-4">
+                    <div>
                         <a href="https://codepen.io/mokyox/"><i class="fa fa-codepen fa-5x" aria-hidden="true"></i></a>
                         <p>CodePen</p>
                     </div>
-
-                    <div class="col-md-4 col-sm-4">
+                    <div>
                         <a href="https://www.freecodecamp.com/mokyox"><i class="fa fa-free-code-camp fa-5x" aria-hidden="true"></i></a>
                         <p>freeCodeCamp</p>
                     </div>
@@ -78,9 +71,9 @@
             </div>
         </div>
 
-        <div class="section">
+        <div class="section section-2">
             <img src="img/Picture%20of%20me.jpg" alt="picture of me" class="picMe">
-            <h1>Mo Jama</h1>
+            <h1 class="myName">Mo Jama</h1>
             <p class="describeMe">Hello there! My name is Mo. I'm an aspiring web developer currently staying in Tokyo, Japan.
              I enjoy building web applications and learning more about the world of programming.
                I'm currently studying about React and Redux. During my free time, I enjoy cycling up Japan's beautiful mountains and listening to podcasts.</p>
@@ -147,10 +140,8 @@
             a.src = g;
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
         ga('create', 'UA-100833071-1', 'auto');
         ga('send', 'pageview');
-
     </script>
 
 </body>
