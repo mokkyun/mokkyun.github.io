@@ -3,4 +3,3 @@ $('#fullpage').fullpage({
     autoScrolling: false,
     fitToSection: false
 });
-
