@@ -1,4 +1,5 @@
 //Styles Sass
+@import 'reset.scss';
 @import "variables";
 
 body {
@@ -11,21 +12,24 @@ body {
   color: $text-color;
   box-sizing: border-box;
 }
-
 /* Home Page CSS*/
-
 .navbar-inverse {
   margin-top: 15px;
   background: none;
   border: none;
+
   li {
     font-size: 18px;
   }
 }
-.navbar li {
-  padding-left: 30px;
-  padding-right: 30px;
+
+.navbar {
+  li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
+
 .portfolio {
   padding: 40px;
   display: flex;
@@ -34,23 +38,23 @@ body {
   justify-content: space-around;
   margin: 0 auto;
 }
-
 @media (max-width: 768px) {
-  .navbar li {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    display: inline-block;
-    margin-top: 15px;
+  .navbar {
+    li {
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      display: inline-block;
+      margin-top: 15px;
+    }
   }
+
   .portfolio {
     display: flex;
     flex-direction: column;
   }
 }
-
 /*Index CSS*/
-
 .myName {
   padding: 5px;
   letter-spacing: -1px;
@@ -76,9 +80,7 @@ p {
 .fa {
   color: azure;
 }
-
 /*About Page CSS*/
-
 [class^=devicon-] {
   font-size: 57px;
 }
