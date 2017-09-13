@@ -64,7 +64,14 @@ body {
   margin: 0 auto;
 }
 
+.section-1 h4 {
+  font-size: 24px;
+}
+
 @media (max-width: 768px) {
+  .section-1 h4 {
+    margin: 15px;
+  }
   .navbar li {
     padding-left: 20px;
     padding-right: 20px;
@@ -95,12 +102,6 @@ h2 {
   font-size: 24px;
 }
 
-p {
-  font-size: 24px;
-  padding: 10px;
-  margin: 10px;
-}
-
 .fa {
   color: azure;
 }
@@ -110,23 +111,10 @@ p {
   font-size: 57px;
 }
 
-.flexcontainer {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.cell {
-  flex: 0 0 24%;
-  height: 50px;
-  margin: 30px auto;
-  width: 100%;
-}
-
-.innerCell {
-  font-size: 18px;
-  margin: auto 0;
+h3 {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .picMe {
@@ -135,15 +123,29 @@ p {
   border-radius: 50%;
 }
 
-.describeMe {
-  font-family: 'Pridi', serif;
-  font-size: 18px;
-  max-width: 66%;
-  margin: 0 auto;
+.flexcontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }
 
-h3 {
-  font-size: 28px;
-  margin-top: 25px;
-  margin-bottom: 35px;
+.flexcontainer .cell {
+  flex: 0 0 24%;
+  height: 50px;
+  margin: 30px auto;
+  width: 100%;
+}
+
+.flexcontainer .cell .innerCell {
+  font-size: 18px;
+  margin: auto 0;
+}
+
+.description-me {
+  display: inline-block;
+  font-family: 'Pridi', serif;
+  font-size: 18px;
+  max-width: 75%;
+  margin: 20px auto;
 }

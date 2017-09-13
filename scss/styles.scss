@@ -13,11 +13,11 @@ body {
   box-sizing: border-box;
 }
 /* Home Page CSS*/
+
 .navbar-inverse {
   margin-top: 15px;
   background: none;
   border: none;
-
   li {
     font-size: 18px;
   }
@@ -38,7 +38,17 @@ body {
   justify-content: space-around;
   margin: 0 auto;
 }
+
+.section-1 {
+  h4 {
+    font-size: $p-fontsize;
+  }
+}
+
 @media (max-width: 768px) {
+  .section-1 h4 {
+    margin: 15px;
+  }
   .navbar {
     li {
       padding-left: 20px;
@@ -48,12 +58,12 @@ body {
       margin-top: 15px;
     }
   }
-
   .portfolio {
     display: flex;
     flex-direction: column;
   }
 }
+
 /*Index CSS*/
 .myName {
   padding: 5px;
@@ -68,13 +78,7 @@ h2 {
 
 .lead {
   margin: 15px;
-  font-size: 24px;
-}
-
-p {
-  font-size: 24px;
-  padding: 10px;
-  margin: 10px;
+  font-size: $p-fontsize;
 }
 
 .fa {
@@ -85,23 +89,10 @@ p {
   font-size: 57px;
 }
 
-.flexcontainer {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.cell {
-  flex: 0 0 24%;
-  height: 50px;
-  margin: 30px auto;
-  width: 100%;
-}
-
-.innerCell {
-  font-size: 18px;
-  margin: auto 0;
+h3 {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .picMe {
@@ -110,15 +101,29 @@ p {
   border-radius: 50%;
 }
 
-.describeMe {
-  font-family: 'Pridi', serif;
-  font-size: 18px;
-  max-width: 66%;
-  margin: 0 auto;
+.flexcontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+  .cell {
+    flex: 0 0 24%;
+    height: 50px;
+    margin: 30px auto;
+    width: 100%;
+
+    .innerCell {
+      font-size: 18px;
+      margin: auto 0;
+    }
+  }
 }
 
-h3 {
-  font-size: 28px;
-  margin-top: 25px;
-  margin-bottom: 35px;
+.description-me {
+  display: inline-block;
+  font-family: 'Pridi', serif;
+  font-size: 18px;
+  max-width: 75%;
+  margin: 20px auto;
 }
