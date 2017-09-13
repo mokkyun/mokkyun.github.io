@@ -1,11 +1,15 @@
+$background-color: #272833;
+$text-color: azure;
+
+
 body {
   height: 100%;
   font-family: 'Lato', sans-serif;
-  background: #272833;
+  background: $background-color;
   text-align: center;
   padding: 20px 10%;
   vertical-align: middle;
-  color: azure;
+  color: $text-color;
   box-sizing: border-box;
 }
 
@@ -41,6 +45,7 @@ body {
     margin-top: 15px;
   }
   .portfolio {
+    display: flex;
     flex-direction: column;
   }
 }

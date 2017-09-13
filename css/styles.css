@@ -43,6 +43,7 @@ body {
     margin-top: 15px;
   }
   .portfolio {
+    display: flex;
     flex-direction: column;
   }
 }
