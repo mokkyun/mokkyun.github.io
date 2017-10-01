@@ -55,6 +55,15 @@ body {
   padding-right: 30px;
 }
 
+a {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+a:hover {
+  opacity: 1;
+}
+
 .portfolio {
   padding: 40px;
   display: flex;
