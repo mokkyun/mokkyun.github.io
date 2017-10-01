@@ -1,5 +1,4 @@
 //Styles Sass
-
 @import 'reset.scss';
 @import "variables";
 
@@ -13,7 +12,13 @@ body {
   color: $text-color;
   box-sizing: border-box;
 }
-/* Home Page CSS*/
+/* Section 1 - Home*/
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
 
 .navbar-inverse {
   margin-top: 15px;
@@ -21,6 +26,8 @@ body {
   border: none;
   li {
     font-size: 18px;
+    animation: fadeIn 1s 1s forwards;
+    opacity: 0;
   }
 }
 
@@ -34,6 +41,7 @@ body {
 a {
   text-decoration: none;
   opacity: 0.75;
+
   &:hover {
     opacity: 1;
   }
@@ -48,17 +56,40 @@ a {
   margin: 0 auto;
 }
 
-.section-1 {
-  h4 {
-    font-size: $p-fontsize;
-    padding: 15px;
-  }
+#myName {
+  animation: fadeIn 1s 0.5 forwards;
+  opacity: 0;
+  font-size: 55px;
+  text-transform: uppercase;
 }
 
+#myTitle {
+  font-size: 24px;
+  animation: fadeIn 1s 0.5 forwards;
+  opacity: 0;
+  font-family: 'Pridi', serif;
+}
+
+.section-1 {
+  opacity: 0;
+  margin-top: 100px;
+  animation: slideFadeUp 1s 1s forwards;
+  h4 {
+    font-size: $p-fontsize;
+    padding: 20px;
+  }
+}
+@keyframes slideFadeUp {
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
+}
 @media (max-width: 768px) {
   .section-1 h4 {
     margin: 15px;
   }
+
   .navbar {
     li {
       padding-left: 20px;
@@ -68,12 +99,12 @@ a {
       margin-top: 15px;
     }
   }
+
   .portfolio {
     display: flex;
     flex-direction: column;
   }
 }
-
 /*Index CSS*/
 .myName {
   padding: 5px;
@@ -95,7 +126,6 @@ h2 {
   color: azure;
 }
 /*About Page CSS*/
-
 [class^=devicon-] {
   font-size: 57px;
 }
@@ -131,7 +161,7 @@ h3 {
   }
 }
 
-.description-me {
+.myDescription {
   display: inline-block;
   font-family: 'Pridi', serif;
   font-size: 18px;

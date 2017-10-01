@@ -39,7 +39,13 @@ body {
   box-sizing: border-box;
 }
 
-/* Home Page CSS*/
+/* Section 1 - Home*/
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
 .navbar-inverse {
   margin-top: 15px;
   background: none;
@@ -48,6 +54,8 @@ body {
 
 .navbar-inverse li {
   font-size: 18px;
+  animation: fadeIn 1s 1s forwards;
+  opacity: 0;
 }
 
 .navbar li {
@@ -73,9 +81,36 @@ a:hover {
   margin: 0 auto;
 }
 
+#myName {
+  animation: fadeIn 1s 0.5 forwards;
+  opacity: 0;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+#myTitle {
+  font-size: 24px;
+  animation: fadeIn 1s 0.5 forwards;
+  opacity: 0;
+  font-family: 'Pridi', serif;
+}
+
+.section-1 {
+  opacity: 0;
+  margin-top: 100px;
+  animation: slideFadeUp 1s 1s forwards;
+}
+
 .section-1 h4 {
   font-size: 24px;
-  padding: 15px;
+  padding: 20px;
+}
+
+@keyframes slideFadeUp {
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -152,7 +187,7 @@ h3 {
   margin: auto 0;
 }
 
-.description-me {
+.myDescription {
   display: inline-block;
   font-family: 'Pridi', serif;
   font-size: 18px;
