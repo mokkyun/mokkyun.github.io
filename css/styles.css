@@ -136,7 +136,7 @@ a:hover {
 
 /*About Page CSS*/
 .myPicture {
-  margin-top: 20px;
+  max-height: 200px;
   max-width: 200px;
   border-radius: 50%;
 }
