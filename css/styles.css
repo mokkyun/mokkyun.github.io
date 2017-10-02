@@ -134,7 +134,13 @@ a:hover {
   color: azure;
 }
 
-/*About Page CSS*/
+/*Section 2 - About Me*/
+.section-2 {
+  opacity: 0;
+  margin-top: 100px;
+  animation: slideFadeUp 1s 1s forwards;
+}
+
 .myPicture {
   max-height: 200px;
   max-width: 200px;
