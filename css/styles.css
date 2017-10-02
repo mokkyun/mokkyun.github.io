@@ -47,12 +47,6 @@ body {
   }
 }
 
-@keyframes fadeIn {
-  100% {
-    opacity: 1;
-  }
-}
-
 .navbar-inverse {
   margin-top: 15px;
   background: none;
@@ -89,17 +83,14 @@ body {
 }
 
 #myName {
-  animation: fadeIn 1s 0.5 forwards;
-  opacity: 0;
   font-size: 55px;
   text-transform: uppercase;
 }
 
 #myTitle {
   font-size: 24px;
-  animation: fadeIn 1s 0.5 forwards;
-  opacity: 0;
   font-family: 'Pridi', serif;
+  margin: 15px 0;
 }
 
 .section-1 {
