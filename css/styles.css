@@ -101,7 +101,7 @@ a:hover {
   animation: slideFadeUp 1s 1s forwards;
 }
 
-.section-1 h4 {
+.section-1 .iconTitle {
   font-size: 24px;
   padding: 20px;
 }
@@ -130,49 +130,46 @@ a:hover {
   }
 }
 
-/*Index CSS*/
-.myName {
-  padding: 5px;
-  letter-spacing: -1px;
-  font-size: 48px;
-}
-
-h2 {
-  font-size: 24px;
-  margin: 30px 0;
-}
-
-.lead {
-  margin: 15px;
-  font-size: 24px;
-}
-
 .fa {
   color: azure;
 }
 
 /*About Page CSS*/
-[class^=devicon-] {
-  font-size: 57px;
-}
-
-h3 {
-  font-size: 28px;
-  margin-top: 25px;
-  margin-bottom: 35px;
-}
-
-.picMe {
+.myPicture {
   margin-top: 20px;
   max-width: 200px;
   border-radius: 50%;
 }
 
+.myNameAgain {
+  margin-top: 15px;
+  letter-spacing: -1px;
+  font-size: 48px;
+}
+
+.myDescription {
+  display: inline-block;
+  font-family: 'Pridi', serif;
+  font-size: 20px;
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+.myToolbox {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+[class^=devicon-] {
+  font-size: 57px;
+}
+
 .flexcontainer {
+  margin-top: 10px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 10px;
 }
 
 .flexcontainer .cell {
@@ -183,14 +180,5 @@ h3 {
 }
 
 .flexcontainer .cell .innerCell {
-  font-size: 18px;
-  margin: auto 0;
-}
-
-.myDescription {
-  display: inline-block;
-  font-family: 'Pridi', serif;
-  font-size: 18px;
-  max-width: 75%;
-  margin: 20px auto;
+  font-size: 24px;
 }
