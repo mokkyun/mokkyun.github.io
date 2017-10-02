@@ -83,12 +83,12 @@ body {
 }
 
 #myName {
-  font-size: 55px;
+  font-size: 60px;
   text-transform: uppercase;
 }
 
 #myTitle {
-  font-size: 24px;
+  font-size: 30px;
   font-family: 'Pridi', serif;
   margin: 15px 0;
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .section-1 .iconTitle {
-  font-size: 20px;
+  font-size: 24px;
   padding: 20px;
 }
 

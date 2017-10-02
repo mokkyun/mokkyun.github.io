@@ -59,12 +59,12 @@ body {
 }
 
 #myName {
-  font-size: 55px;
+  font-size: 60px;
   text-transform: uppercase;
 }
 
 #myTitle {
-  font-size: 24px;
+  font-size: 30px;
   font-family: 'Pridi', serif;
   margin: 15px 0;
 }
@@ -73,9 +73,8 @@ body {
   opacity: 0;
   margin-top: 100px;
   animation: slideFadeUp 1s 1s forwards;
-
   .iconTitle {
-    font-size: 20px;
+    font-size: 24px;
     padding: 20px;
   }
 }
