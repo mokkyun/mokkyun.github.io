@@ -14,6 +14,12 @@ body {
 }
 /* Section 1 - Home*/
 
+@keyframes slideFadeUp {
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
+}
 @keyframes fadeIn {
   100% {
     opacity: 1;
@@ -24,6 +30,7 @@ body {
   margin-top: 15px;
   background: none;
   border: none;
+
   li {
     font-size: 18px;
     animation: fadeIn 1s 1s forwards;
@@ -35,15 +42,15 @@ body {
   li {
     padding-left: 30px;
     padding-right: 30px;
-  }
-}
 
-a {
-  text-decoration: none;
-  opacity: 0.75;
+    a {
+      text-decoration: none;
+      opacity: 0.75;
 
-  &:hover {
-    opacity: 1;
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
 }
 
@@ -74,15 +81,10 @@ a {
   opacity: 0;
   margin-top: 100px;
   animation: slideFadeUp 1s 1s forwards;
+
   .iconTitle {
-    font-size: $p-fontsize;
+    font-size: 20px;
     padding: 20px;
-  }
-}
-@keyframes slideFadeUp {
-  100% {
-    opacity: 1;
-    margin: 0;
   }
 }
 @media (max-width: 768px) {
@@ -105,10 +107,14 @@ a {
     flex-direction: column;
   }
 }
-.fa {
-  color: azure;
-}
 
+.fa {
+  color: $text-color;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
 /*Section 2 - About Me*/
 
 .section-2 {

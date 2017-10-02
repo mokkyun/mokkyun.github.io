@@ -40,6 +40,13 @@ body {
 }
 
 /* Section 1 - Home*/
+@keyframes slideFadeUp {
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
+}
+
 @keyframes fadeIn {
   100% {
     opacity: 1;
@@ -63,12 +70,12 @@ body {
   padding-right: 30px;
 }
 
-a {
+.navbar li a {
   text-decoration: none;
   opacity: 0.75;
 }
 
-a:hover {
+.navbar li a:hover {
   opacity: 1;
 }
 
@@ -102,15 +109,8 @@ a:hover {
 }
 
 .section-1 .iconTitle {
-  font-size: 24px;
+  font-size: 20px;
   padding: 20px;
-}
-
-@keyframes slideFadeUp {
-  100% {
-    opacity: 1;
-    margin: 0;
-  }
 }
 
 @media (max-width: 768px) {
@@ -131,7 +131,11 @@ a:hover {
 }
 
 .fa {
-  color: $text-color;
+  color: azure;
+}
+
+.fa:hover {
+  opacity: 0.75;
 }
 
 /*Section 2 - About Me*/
