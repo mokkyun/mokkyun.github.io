@@ -55,7 +55,7 @@ body {
 
 .navbar-inverse li {
   font-size: 18px;
-  animation: fadeIn 1s 1s forwards;
+  animation: slideFadeUp 1s 1s forwards;
   opacity: 0;
 }
 
