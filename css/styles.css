@@ -131,7 +131,7 @@ a:hover {
 }
 
 .fa {
-  color: azure;
+  color: $text-color;
 }
 
 /*Section 2 - About Me*/
