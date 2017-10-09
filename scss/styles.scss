@@ -6,14 +6,12 @@ body {
   height: 100%;
   font-family: 'Lato', sans-serif;
   background: $background-color;
-  text-align: center;
   padding: 20px 10%;
   vertical-align: middle;
   color: $text-color;
   box-sizing: border-box;
 }
 /* Section 1 - Home*/
-
 @keyframes slideFadeUp {
   100% {
     opacity: 1;
@@ -34,6 +32,8 @@ body {
 }
 
 .navbar {
+  text-align: center;
+
   li {
     padding-left: 30px;
     padding-right: 30px;
@@ -73,6 +73,8 @@ body {
   opacity: 0;
   margin-top: 100px;
   animation: slideFadeUp 1s 1s forwards;
+  text-align: center;
+
   .iconTitle {
     font-size: 24px;
     padding: 20px;
@@ -82,6 +84,7 @@ body {
   .section-1 h4 {
     margin: 15px;
   }
+
   .navbar {
     li {
       padding-left: 20px;
@@ -106,11 +109,15 @@ body {
   }
 }
 /*Section 2 - About Me*/
-
 .section-2 {
   opacity: 0;
-  margin-top: 100px;
   animation: slideFadeUp 1s 1s forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
 }
 
 .myPicture {
@@ -126,17 +133,17 @@ body {
 }
 
 .myDescription {
-  display: inline-block;
   font-family: 'Pridi', serif;
   font-size: 20px;
-  max-width: 70%;
-  margin: 20px auto;
+  width: 75%;
+  margin: 25px auto;
+  text-align: inherit;
+  display: inline-block;
 }
 
 .myToolbox {
   font-size: 28px;
-  margin-top: 25px;
-  margin-bottom: 35px;
+  margin: 10px 0;
 }
 
 [class^=devicon-] {

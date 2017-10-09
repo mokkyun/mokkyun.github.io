@@ -32,7 +32,6 @@ body {
   height: 100%;
   font-family: 'Lato', sans-serif;
   background: #272833;
-  text-align: center;
   padding: 20px 10%;
   vertical-align: middle;
   color: azure;
@@ -57,6 +56,10 @@ body {
   font-size: 18px;
   animation: slideFadeUp 1s 1s forwards;
   opacity: 0;
+}
+
+.navbar {
+  text-align: center;
 }
 
 .navbar li {
@@ -97,6 +100,7 @@ body {
   opacity: 0;
   margin-top: 100px;
   animation: slideFadeUp 1s 1s forwards;
+  text-align: center;
 }
 
 .section-1 .iconTitle {
@@ -132,8 +136,13 @@ body {
 /*Section 2 - About Me*/
 .section-2 {
   opacity: 0;
-  margin-top: 100px;
   animation: slideFadeUp 1s 1s forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
 }
 
 .myPicture {
@@ -149,17 +158,17 @@ body {
 }
 
 .myDescription {
-  display: inline-block;
   font-family: 'Pridi', serif;
   font-size: 20px;
-  max-width: 70%;
-  margin: 20px auto;
+  width: 75%;
+  margin: 25px auto;
+  text-align: inherit;
+  display: inline-block;
 }
 
 .myToolbox {
   font-size: 28px;
-  margin-top: 25px;
-  margin-bottom: 35px;
+  margin: 10px 0;
 }
 
 [class^=devicon-] {
