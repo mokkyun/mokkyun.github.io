@@ -173,19 +173,19 @@ section {
 	margin: 20px;
 }
 
-.aboutMe {
+#aboutMe {
 	background: #060606;
 	color: #fcfcfc;
 }
 
-.aboutMe .grid li,
-.contact .grid li {
-	padding: 25px 70px;
+#aboutMe .grid li,
+#contact .grid li {
+	padding: 25px 60px;
 	flex-basis: 25%;
 	text-align: center;
 	i {
 		font-size: 48px;
-		margin: 25px 0;
+		margin: 5px 0;
 	}
 	h4 {
 		font-size: 24px;
@@ -195,7 +195,7 @@ section {
 
 //Contact Me
 
-.contact {
+#contact {
 	background-color: #D7D7D7;
 	color: #121212;
 	i {
@@ -230,8 +230,27 @@ section {
 	.hero h3 {
 		font-size: 24px;
 	}
+
 	.myName {
 		font-size: 18px;
+	}
+	#aboutMe .grid li {
+		flex-basis: 50%;
+		padding: 20px;
+		font-size: 14px;
+	}
+
+	#contact .grid li {
+		flex-basis: 100%;
+		padding: 20px;
+	}
+
+	header {
+		position: absolute;
+	}
+
+	.fa {
+		font-size: 24px;
 	}
 }
 
@@ -247,20 +266,5 @@ section {
 		.projects .grid li.small,
 		.projects .grid li.large {
 			flex-basis: 100%;
-		}
-	}
-
-	@media screen and (max-width: 800px){
-		.aboutMe .grid li {
-			flex-basis: 50%;
-			padding: 15px;
-		}
-		.contact .grid li {
-			flex-basis: 100%;
-			padding: 20px;
-		}
-
-		header {
-			position: absolute;
 		}
 	}
