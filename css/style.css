@@ -175,7 +175,7 @@ section p {
 
 #aboutMe .grid li,
 #contact .grid li {
-  padding: 25px 60px;
+  padding: 25px 50px;
   flex-basis: 25%;
   text-align: center;
 }
@@ -183,12 +183,12 @@ section p {
 #aboutMe .grid li i,
 #contact .grid li i {
   font-size: 48px;
-  margin: 5px 0;
+  margin: 20px;
 }
 
 #aboutMe .grid li h4,
 #contact .grid li h4 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #contact {
@@ -200,7 +200,7 @@ section p {
   color: #121212;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   section {
     padding: 50px 20px;
   }
@@ -235,8 +235,8 @@ section p {
   header {
     position: absolute;
   }
-  .fa {
-    font-size: 24px;
+  i {
+    font-size: 18px;
   }
 }
 

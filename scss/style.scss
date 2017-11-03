@@ -180,15 +180,15 @@ section {
 
 #aboutMe .grid li,
 #contact .grid li {
-	padding: 25px 60px;
+	padding: 25px 50px;
 	flex-basis: 25%;
 	text-align: center;
 	i {
 		font-size: 48px;
-		margin: 5px 0;
+		margin: 20px;
 	}
 	h4 {
-		font-size: 24px;
+		font-size: 18px;
 	}
 }
 
@@ -205,7 +205,7 @@ section {
 
 //Media Queries
 
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
 	section {
 		padding: 50px 20px;
 	}
@@ -234,6 +234,7 @@ section {
 	.myName {
 		font-size: 18px;
 	}
+
 	#aboutMe .grid li {
 		flex-basis: 50%;
 		padding: 20px;
@@ -249,8 +250,8 @@ section {
 		position: absolute;
 	}
 
-	.fa {
-		font-size: 24px;
+	i {
+		font-size: 18px;
 	}
 }
 
