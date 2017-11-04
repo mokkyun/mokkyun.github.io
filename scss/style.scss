@@ -109,7 +109,7 @@ section {
 		opacity: 1;
 	}
 }
-//Page 2: Destination
+//Page 2: Projects
 
 .projects {
 	background: #181818;
@@ -176,19 +176,24 @@ section {
 #aboutMe {
 	background: #060606;
 	color: #fcfcfc;
+
+	ul {
+		padding: 0 40px;
+	}
 }
 
-#aboutMe .grid li,
-#contact .grid li {
-	padding: 25px 50px;
+#aboutMe li,
+#contact li {
+	padding: 25px;
 	flex-basis: 25%;
 	text-align: center;
 	i {
 		font-size: 48px;
-		margin: 20px;
+		margin: 15px;
 	}
 	h4 {
 		font-size: 18px;
+		margin: 20px;
 	}
 }
 
@@ -235,17 +240,20 @@ section {
 		font-size: 18px;
 	}
 
-	#aboutMe .grid li {
+	#aboutMe li {
 		flex-basis: 50%;
 		padding: 20px;
 		font-size: 14px;
 	}
 
-	#contact .grid li {
+	#contact li {
 		flex-basis: 100%;
 		padding: 20px;
 	}
 
+	#aboutMe ul {
+		padding: 5px;
+	}
 	header {
 		position: absolute;
 	}
@@ -254,18 +262,3 @@ section {
 		font-size: 18px;
 	}
 }
-
-	@media screen and (max-width: 1100px){
-		.projects .grid li.small,
-		.projects .grid li.large {
-			flex-basis: 50%;
-		}
-	}
-
-
-	@media screen and (max-width: 800px) {
-		.projects .grid li.small,
-		.projects .grid li.large {
-			flex-basis: 100%;
-		}
-	}
