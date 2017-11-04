@@ -121,6 +121,7 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
 }
 
 hr {
@@ -184,12 +185,11 @@ section {
 
 #aboutMe li,
 #contact li {
-	padding: 25px 40px;
+	padding: 25px 0px;
 	flex-basis: 25%;
 	text-align: center;
 	i {
 		font-size: 48px;
-		margin: 10px 0px;
 	}
 	h4 {
 		font-size: 18px;
@@ -201,6 +201,7 @@ section {
 //Contact Me
 
 #contact {
+	text-align: center;
 	background-color: #D7D7D7;
 	color: #121212;
 	i {
@@ -240,6 +241,12 @@ section {
 		font-size: 18px;
 	}
 
+	#contact {
+		.grid {
+			flex-wrap: nowrap;
+		}
+	}
+
 	#aboutMe li {
 		flex-basis: 50%;
 		padding: 20px;
@@ -248,17 +255,19 @@ section {
 
 	#contact li {
 		flex-basis: 100%;
-		padding: 20px;
+		margin: auto;
 	}
 
 	#aboutMe ul {
 		padding: 5px;
 	}
+
 	header {
 		position: absolute;
 	}
 
 	i {
 		font-size: 18px;
+		text-align: center;
 	}
 }

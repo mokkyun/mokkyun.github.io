@@ -120,6 +120,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 hr {
@@ -179,7 +180,7 @@ section p {
 
 #aboutMe li,
 #contact li {
-  padding: 25px 40px;
+  padding: 25px 0px;
   flex-basis: 25%;
   text-align: center;
 }
@@ -187,7 +188,6 @@ section p {
 #aboutMe li i,
 #contact li i {
   font-size: 48px;
-  margin: 10px 0px;
 }
 
 #aboutMe li h4,
@@ -197,6 +197,7 @@ section p {
 }
 
 #contact {
+  text-align: center;
   background-color: #D7D7D7;
   color: #121212;
 }
@@ -228,6 +229,9 @@ section p {
   .myName {
     font-size: 18px;
   }
+  #contact .grid {
+    flex-wrap: nowrap;
+  }
   #aboutMe li {
     flex-basis: 50%;
     padding: 20px;
@@ -235,7 +239,7 @@ section p {
   }
   #contact li {
     flex-basis: 100%;
-    padding: 20px;
+    margin: auto;
   }
   #aboutMe ul {
     padding: 5px;
@@ -245,5 +249,6 @@ section p {
   }
   i {
     font-size: 18px;
+    text-align: center;
   }
 }
