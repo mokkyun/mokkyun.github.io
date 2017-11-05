@@ -109,12 +109,6 @@ section {
 		opacity: 1;
 	}
 }
-//Page 2: Projects
-
-.projects {
-	background: #181818;
-	color: #fcfcfc;
-}
 
 .grid {
 	width: 100%;
@@ -149,23 +143,7 @@ section {
 	}
 }
 
-.projects .grid li {
-	height: 350px;
-	padding: 20px;
-	background-clip: content-box;
-	background-size: cover;
-	background-position: center;
-
-	&.small {
-		flex-basis: 30%;
-	}
-
-	&.large {
-		flex-basis: 70%;
-	}
-}
-
-//Section 3: About me
+//About Page
 
 .myPicture {
   max-height: 200px;
@@ -177,7 +155,6 @@ section {
 #aboutMe {
 	background: #060606;
 	color: #fcfcfc;
-
 	ul {
 		padding: 0 40px;
 	}
@@ -198,7 +175,7 @@ section {
 }
 
 
-//Contact Me
+//Contact Page
 
 #contact {
 	text-align: center;

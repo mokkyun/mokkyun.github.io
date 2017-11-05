@@ -110,11 +110,6 @@ section {
   }
 }
 
-.projects {
-  background: #181818;
-  color: #fcfcfc;
-}
-
 .grid {
   width: 100%;
   display: flex;
@@ -144,22 +139,6 @@ section p {
   padding: 0 20px;
   margin-bottom: 30px;
   text-align: center;
-}
-
-.projects .grid li {
-  height: 350px;
-  padding: 20px;
-  background-clip: content-box;
-  background-size: cover;
-  background-position: center;
-}
-
-.projects .grid li.small {
-  flex-basis: 30%;
-}
-
-.projects .grid li.large {
-  flex-basis: 70%;
 }
 
 .myPicture {
