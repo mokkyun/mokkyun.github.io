@@ -206,7 +206,7 @@ section p {
     font-size: 24px;
   }
   .myName {
-    font-size: 18px;
+    display: none;
   }
   #contact .grid {
     flex-wrap: nowrap;
