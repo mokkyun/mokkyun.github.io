@@ -1,5 +1,4 @@
 /*General Styles*/
-/*Reset*/
 * {
   margin: 0;
   border: 0;
@@ -7,12 +6,13 @@
 }
 
 html {
-  color: #555;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   background-color: #181818;
+  color: #fcfcfc;
 }
 
+/*Header Styles */
 header {
   position: fixed;
   z-index: 10;
@@ -73,7 +73,6 @@ section {
   justify-content: center;
   text-align: center;
   min-height: 100vh;
-  color: #fcfcfc;
 }
 
 .hero .background-image {
@@ -177,7 +176,7 @@ section p {
 
 #contact {
   text-align: center;
-  background-color: #D7D7D7;
+  background: #D7D7D7;
   color: #121212;
 }
 
