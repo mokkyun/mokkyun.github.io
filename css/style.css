@@ -184,6 +184,11 @@ section p {
   color: #121212;
 }
 
+#contact .grid {
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
 @media (max-width: 800px) {
   section {
     padding: 50px 20px;
@@ -207,10 +212,6 @@ section p {
   .myName {
     display: none;
   }
-  #contact .grid {
-    flex-wrap: nowrap;
-    padding: 10px;
-  }
   #aboutMe li {
     flex-basis: 50%;
     padding: 20px;
@@ -222,7 +223,7 @@ section p {
   #contact li {
     flex-basis: 100%;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
   }
   header {
     position: absolute;

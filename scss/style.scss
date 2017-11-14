@@ -178,6 +178,10 @@ section {
 	i {
 		color: $contactText-color;
 	}
+	.grid {
+		flex-wrap: nowrap;
+		padding: 10px;
+	}
 }
 
 //Media Queries
@@ -204,12 +208,7 @@ section {
 	.myName {
 		display: none;
 	}
-	#contact {
-		.grid {
-			flex-wrap: nowrap;
-			padding: 10px;
-		}
-	}
+	
 	#aboutMe li {
 		flex-basis: 50%;
 		padding: 20px;
@@ -221,7 +220,7 @@ section {
 	#contact li {
 		flex-basis: 100%;
 		margin: auto;
-		padding: 10px;
+		padding: 20px;
 	}
 	header {
 		position: absolute;
