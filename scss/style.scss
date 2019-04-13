@@ -156,10 +156,21 @@ section {
 	}
 }
 
-#aboutMe li,
-#contact li {
+#aboutMe li {
 	padding: 25px 0px;
 	flex-basis: 25%;
+	text-align: center;
+	i {
+		font-size: 48px;
+	}
+	h4 {
+		font-size: 18px;
+		margin: 15px 0px;
+	}
+}
+#contact li {
+	padding: 15px;
+	flex-basis: 15%;
 	text-align: center;
 	i {
 		font-size: 48px;
@@ -218,9 +229,7 @@ section {
 		padding: 5px;
 	}
 	#contact li {
-		flex-basis: 100%;
-		margin: auto;
-		padding: 20px;
+		flex-basis: 25%;
 	}
 	header {
 		position: absolute;

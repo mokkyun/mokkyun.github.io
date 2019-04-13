@@ -2,7 +2,8 @@
 * {
   margin: 0;
   border: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -17,12 +18,25 @@ header {
   position: fixed;
   z-index: 10;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 35px 100px 0px;
-  animation: 1s fadeIn 0.5s forwards;
+  -webkit-animation: 1s fadeIn 0.5s forwards;
+          animation: 1s fadeIn 0.5s forwards;
   opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
@@ -36,6 +50,8 @@ header h2 {
 }
 
 header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: -15px;
 }
@@ -60,9 +76,16 @@ a:hover {
 }
 
 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 80px;
   color: #fcfcfc;
 }
@@ -70,7 +93,9 @@ section {
 /*Hero Styles */
 .hero {
   position: relative;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   min-height: 100vh;
 }
@@ -99,7 +124,15 @@ section {
 .hero-content-area {
   opacity: 0;
   margin-top: 100px;
-  animation: 1s slideFade 1s forwards;
+  -webkit-animation: 1s slideFade 1s forwards;
+          animation: 1s slideFade 1s forwards;
+}
+
+@-webkit-keyframes slideFade {
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
 }
 
 @keyframes slideFade {
@@ -111,10 +144,17 @@ section {
 
 .grid {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 hr {
@@ -156,19 +196,33 @@ section p {
   padding: 0 40px;
 }
 
-#aboutMe li,
-#contact li {
+#aboutMe li {
   padding: 25px 0px;
-  flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
   text-align: center;
 }
 
-#aboutMe li i,
+#aboutMe li i {
+  font-size: 48px;
+}
+
+#aboutMe li h4 {
+  font-size: 18px;
+  margin: 15px 0px;
+}
+
+#contact li {
+  padding: 15px;
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  text-align: center;
+}
+
 #contact li i {
   font-size: 48px;
 }
 
-#aboutMe li h4,
 #contact li h4 {
   font-size: 18px;
   margin: 15px 0px;
@@ -185,7 +239,8 @@ section p {
 }
 
 #contact .grid {
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   padding: 10px;
 }
 
@@ -195,7 +250,10 @@ section p {
   }
   header {
     padding: 20px 50px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   header h2 {
     margin-bottom: 15px;
@@ -213,7 +271,8 @@ section p {
     display: none;
   }
   #aboutMe li {
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     padding: 20px;
     font-size: 14px;
   }
@@ -221,9 +280,8 @@ section p {
     padding: 5px;
   }
   #contact li {
-    flex-basis: 100%;
-    margin: auto;
-    padding: 20px;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
   }
   header {
     position: absolute;
