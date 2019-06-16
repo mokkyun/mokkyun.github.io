@@ -1,241 +1,234 @@
 /*General Styles*/
 
-@import 'variables';
+@import "variables";
 * {
-	margin: 0;
-	border: 0;
-	box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 html {
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	background-color: $html-color;
-	color: $text-color;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  background-color: $html-color;
+  color: $text-color;
 }
-
 
 /*Header Styles */
 
 header {
-	position: fixed;
-	z-index: 10;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 35px 100px 0px;
-	animation: 1s fadeIn 0.5s forwards;
-	opacity: 0;
-	@keyframes fadeIn {
-		100% {
-			opacity: 1;
-		}
-	}
-	h2 {
-		font-family: 'Quicksand', sans-serif;
-	}
-	nav {
-		display: flex;
-		margin-right: -15px;
-		li {
-			margin: 0 15px;
-			list-style: none;
-		}
-	}
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 100px 0px;
+  animation: 1s fadeIn 0.5s forwards;
+  opacity: 0;
+  @keyframes fadeIn {
+    100% {
+      opacity: 1;
+    }
+  }
+  h2 {
+    font-family: "Quicksand", sans-serif;
+  }
+  nav {
+    display: flex;
+    margin-right: -15px;
+    li {
+      margin: 0 15px;
+      list-style: none;
+    }
+  }
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 a {
-	text-decoration: none;
-	opacity: 0.8;
-	color: $text-color;
+  text-decoration: none;
+  opacity: 0.8;
+  color: $text-color;
 }
 
 a:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 section {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 80px;
-	color: $text-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  color: $text-color;
 }
-
 
 /*Hero Styles */
 
 .hero {
-	position: relative;
-	justify-content: center;
-	text-align: center;
-	min-height: 100vh;
-	.background-image {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-size: cover;
-		z-index: -1;
-		background-color: $bgImage-color;
-	}
-	h1 {
-		font: bold 60px 'Raleway';
-		margin-bottom: 15px;
-	}
-	h3 {
-		font: normal 28px 'Raleway';
-		margin-bottom: 40px;
-	}
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    background-color: $bgImage-color;
+  }
+  h1 {
+    font: bold 60px "Raleway";
+    margin-bottom: 15px;
+  }
+  h3 {
+    font: normal 28px "Raleway";
+    margin-bottom: 40px;
+  }
 }
 
 .hero-content-area {
-	opacity: 0;
-	margin-top: 100px;
-	animation: 1s slideFade 1s forwards;
+  opacity: 0;
+  margin-top: 100px;
+  animation: 1s slideFade 1s forwards;
 }
 
 @keyframes slideFade {
-	100% {
-		margin-top: 0;
-		opacity: 1;
-	}
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
 }
-
-.grid {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+.contact-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 hr {
-	width: 250px;
-	height: 3px;
-	background-color: $hr-color;
-	border: 0;
-	margin-bottom: 50px;
+  width: 250px;
+  height: 3px;
+  background-color: $hr-color;
+  border: 0;
+  margin-bottom: 20px;
 }
 
 section {
-	h3.title {
-		text-transform: capitalize;
-		font: bold 32px "Open-Sans", sans-serif;
-		margin-bottom: 30px;
-		text-align: center;
-	}
-	p {
-		max-width: 775px;
-		line-height: 2;
-		padding: 0 20px;
-		margin-bottom: 30px;
-		text-align: center;
-	}
+  h3.title {
+    text-transform: capitalize;
+    font: bold 32px "Open-Sans", sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  p {
+    max-width: 775px;
+    line-height: 2;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
 }
 
 //About Page
 .myPicture {
-	max-height: 200px;
-	max-width: 200px;
-	border-radius: 50%;
-	margin: 20px;
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 20px;
 }
 
 #aboutMe {
-	background: #060606;
-	color: #fcfcfc;
-	ul {
-		padding: 0 40px;
-	}
+  background: #060606;
+  color: #fcfcfc;
+  ul {
+    padding: 0 40px;
+  }
 }
 
 #aboutMe li {
-	padding: 25px 0px;
-	flex-basis: 25%;
-	text-align: center;
-	i {
-		font-size: 48px;
-	}
-	h4 {
-		font-size: 18px;
-		margin: 15px 0px;
-	}
+  padding: 25px 0px;
+  flex-basis: 25%;
+  text-align: center;
+  i {
+    font-size: 48px;
+  }
+  h4 {
+    font-size: 18px;
+    margin: 15px 0px;
+  }
 }
 #contact li {
-	padding: 15px;
-	flex-basis: 15%;
-	text-align: center;
-	i {
-		font-size: 48px;
-	}
-	h4 {
-		font-size: 18px;
-		margin: 15px 0px;
-	}
+  padding: 15px;
+  flex-basis: 15%;
+  text-align: center;
+  i {
+    font-size: 48px;
+  }
+  h4 {
+    font-size: 18px;
+    margin: 15px 0px;
+  }
 }
 
 //Contact Page
 #contact {
-	text-align: center;
-	background: $contactbg-color;
-	color: $contactText-color;
-	i {
-		color: $contactText-color;
-	}
-	.grid {
-		flex-wrap: nowrap;
-		padding: 10px;
-	}
+  text-align: center;
+  background: $contactbg-color;
+  color: $contactText-color;
+  i {
+    color: $contactText-color;
+  }
 }
 
 //Media Queries
 @media (max-width: 800px) {
-	section {
-		padding: 50px 20px;
-	}
-	header {
-		padding: 20px 50px;
-		flex-direction: column;
-	}
-	header h2 {
-		margin-bottom: 15px;
-	}
-	.hero {
-		min-height: 600px;
-	}
-	.hero h1 {
-		font-size: 48px;
-	}
-	.hero h3 {
-		font-size: 24px;
-	}
-	.myName {
-		display: none;
-	}
-	
-	#aboutMe li {
-		flex-basis: 50%;
-		padding: 20px;
-		font-size: 14px;
-	}
-	#aboutMe ul {
-		padding: 5px;
-	}
-	#contact li {
-		flex-basis: 25%;
-	}
-	header {
-		position: absolute;
-	}
-	i {
-		font-size: 18px;
-		text-align: center;
-	}
+  section {
+    padding: 50px 20px;
+  }
+  header {
+    padding: 20px 50px;
+    flex-direction: column;
+  }
+  header h2 {
+    margin-bottom: 15px;
+  }
+  .hero {
+    min-height: 600px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h3 {
+    font-size: 24px;
+  }
+  .myName {
+    display: none;
+  }
+
+  #aboutMe li {
+    flex-basis: 50%;
+    padding: 20px;
+    font-size: 14px;
+  }
+  #aboutMe ul {
+    padding: 5px;
+  }
+  #contact li {
+    flex-basis: 25%;
+  }
+  header {
+    position: absolute;
+  }
+  i {
+    font-size: 18px;
+    text-align: center;
+  }
 }

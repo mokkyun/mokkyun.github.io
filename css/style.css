@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   background-color: #181818;
   color: #fcfcfc;
@@ -46,7 +46,7 @@ header {
 }
 
 header h2 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 header nav {
@@ -112,12 +112,12 @@ section {
 }
 
 .hero h1 {
-  font: bold 60px 'Raleway';
+  font: bold 60px "Raleway";
   margin-bottom: 15px;
 }
 
 .hero h3 {
-  font: normal 28px 'Raleway';
+  font: normal 28px "Raleway";
   margin-bottom: 40px;
 }
 
@@ -142,7 +142,7 @@ section {
   }
 }
 
-.grid {
+.contact-grid {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -162,7 +162,7 @@ hr {
   height: 3px;
   background-color: #3f51b5;
   border: 0;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 section h3.title {
@@ -236,12 +236,6 @@ section p {
 
 #contact i {
   color: #121212;
-}
-
-#contact .grid {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  padding: 10px;
 }
 
 @media (max-width: 800px) {
