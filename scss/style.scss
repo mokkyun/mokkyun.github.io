@@ -108,9 +108,10 @@ section {
 .contact-grid {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 hr {
