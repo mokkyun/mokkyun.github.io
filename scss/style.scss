@@ -1,61 +1,66 @@
 /*General Styles*/
 
 @import "variables";
-* {
+
+html {
   margin: 0;
   border: 0;
   box-sizing: border-box;
-}
-
-html {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   background-color: $html-color;
   color: $text-color;
 }
 
+ul {
+  list-style-type: none;
+}
 /*Header Styles */
+
+.site-name {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: inherit;
+}
 
 header {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 10;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 100px 0px;
-  animation: 1s fadeIn 0.5s forwards;
-  opacity: 0;
-  @keyframes fadeIn {
-    100% {
-      opacity: 1;
-    }
-  }
-  h2 {
-    font-family: "Quicksand", sans-serif;
-  }
-  nav {
-    display: flex;
-    margin-right: -15px;
-    li {
-      margin: 0 15px;
-      list-style: none;
-    }
-  }
+  padding: 2.5rem;
+  // animation: 1s fadeIn 0.5s forwards;
+  // opacity: 0;
+  // @keyframes fadeIn {
+  //   100% {
+  //     opacity: 1;
+  //   }
+  // }
 }
 
-ul {
+.nav-list {
+  display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-  text-decoration: none;
+.nav-link {
+  position: relative;
   opacity: 0.8;
-  color: $text-color;
-}
-
-a:hover {
-  opacity: 1;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 15px;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  a:hover {
+    opacity: 1;
+  }
 }
 
 section {
@@ -98,7 +103,6 @@ section {
   margin-top: 100px;
   animation: 1s slideFade 1s forwards;
 }
-
 @keyframes slideFade {
   100% {
     margin-top: 0;
@@ -166,7 +170,19 @@ section {
     margin: 15px 0px;
   }
 }
+
+//Contact Page
+#contact {
+  text-align: center;
+  background: $contactbg-color;
+  color: $contactText-color;
+  i {
+    color: $contactText-color;
+  }
+}
+
 #contact li {
+  text-decoration: none;
   padding: 15px;
   flex-basis: 15%;
   text-align: center;
@@ -179,27 +195,20 @@ section {
   }
 }
 
-//Contact Page
-#contact {
-  text-align: center;
-  background: $contactbg-color;
-  color: $contactText-color;
-  i {
-    color: $contactText-color;
-  }
-}
-
 //Media Queries
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   section {
     padding: 50px 20px;
   }
   header {
-    padding: 20px 50px;
-    flex-direction: column;
+    padding: 1rem;
   }
-  header h2 {
-    margin-bottom: 15px;
+
+  .site-name {
+    font-size: 1rem;
+  }
+  .nav-link {
+    font-size: 0.8rem;
   }
   .hero {
     min-height: 600px;
@@ -224,9 +233,6 @@ section {
   }
   #contact li {
     flex-basis: 25%;
-  }
-  header {
-    position: absolute;
   }
   i {
     font-size: 18px;
