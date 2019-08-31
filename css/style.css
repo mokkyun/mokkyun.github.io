@@ -37,6 +37,21 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding: 2.5rem;
+  -webkit-animation: 1s fadeIn 0.5s forwards;
+          animation: 1s fadeIn 0.5s forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
 }
 
 .nav-list {
