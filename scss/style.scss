@@ -10,6 +10,7 @@ html {
   font-size: 16px;
   background-color: $html-color;
   color: $text-color;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -34,7 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.7rem 2.5rem;
+  padding: 1rem 2.5rem;
   animation: 1s fadeIn 0.5s forwards;
   opacity: 0;
   @keyframes fadeIn {
