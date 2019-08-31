@@ -1,20 +1,3 @@
-$(function() {
-  $("a").bind("click", function(event) {
-    var $anchor = $(this);
-
-    $("html, body")
-      .stop()
-      .animate(
-        {
-          scrollTop: $($anchor.attr("href")).offset().top
-        },
-        1500,
-        "easeInOutExpo"
-      );
-    event.preventDefault();
-  });
-});
-
 //Intersection Observer API for changing navbar on scroll
 
 const header = document.querySelector("header");
