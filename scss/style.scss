@@ -27,6 +27,9 @@ h5 {
 a,
 i {
   cursor: pointer;
+  &:hover {
+    transform: scale(1.08);
+  }
 }
 
 ul {

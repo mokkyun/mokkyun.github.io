@@ -27,6 +27,12 @@ i {
   cursor: pointer;
 }
 
+a:hover,
+i:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
 ul {
   list-style-type: none;
 }
