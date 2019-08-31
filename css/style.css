@@ -207,26 +207,6 @@ section p {
   color: #fcfcfc;
 }
 
-#aboutMe ul {
-  padding: 0 40px;
-}
-
-#aboutMe li {
-  padding: 25px 0px;
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-  text-align: center;
-}
-
-#aboutMe li i {
-  font-size: 48px;
-}
-
-#aboutMe li h4 {
-  font-size: 18px;
-  margin: 15px 0px;
-}
-
 #contact {
   text-align: center;
   background: #D7D7D7;
@@ -239,7 +219,7 @@ section p {
 
 #contact li {
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 10px 40px;
   text-align: center;
 }
 
@@ -275,7 +255,7 @@ section p {
     font-size: 24px;
   }
   i {
-    font-size: 18px;
+    font-size: 38px;
     text-align: center;
   }
 }
