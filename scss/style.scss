@@ -1,4 +1,4 @@
-/*General Styles*/
+// General Styles
 
 @import "variables";
 
@@ -35,7 +35,7 @@ i {
 ul {
   list-style-type: none;
 }
-/*Header Styles */
+//Header Styles
 
 .site-name {
   font-size: 1.6rem;
@@ -105,7 +105,7 @@ section {
   color: $text-color;
 }
 
-/*Hero Styles */
+//Hero Styles
 
 .hero {
   position: relative;
@@ -143,6 +143,9 @@ section {
     opacity: 1;
   }
 }
+
+// About Page
+
 .contact-grid {
   width: 100%;
   display: flex;
@@ -175,8 +178,6 @@ section {
     text-align: center;
   }
 }
-
-//About Page
 
 .myPicture {
   max-height: 200px;
