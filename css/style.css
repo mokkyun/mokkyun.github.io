@@ -91,7 +91,7 @@ header {
 
 .nav-link {
   position: relative;
-  opacity: 0.8;
+  opacity: 0.7;
   text-decoration: none;
   color: inherit;
   display: inline-block;
@@ -100,7 +100,11 @@ header {
   font-size: 1.1rem;
 }
 
-.nav-link a:hover {
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+  text-decoration: underline;
+}
+
+a:hover {
   opacity: 1;
 }
 
