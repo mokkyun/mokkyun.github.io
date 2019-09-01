@@ -1,6 +1,4 @@
 html {
-  margin: 0;
-  border: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Raleway", sans-serif;
@@ -13,12 +11,23 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5 {
   line-height: 1.2;
+  font-family: "Raleway";
+}
+
+h1 {
+  font-size: 2.5rem;
 }
 
 a,
@@ -127,7 +136,8 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 80px;
+  padding: 4rem;
+  margin: 0;
   color: #fcfcfc;
 }
 
@@ -206,15 +216,14 @@ hr {
   margin-bottom: 20px;
 }
 
-section h3.title {
-  text-transform: capitalize;
+section .title {
   font: bold 32px "Open-Sans", sans-serif;
   margin-bottom: 30px;
   text-align: center;
 }
 
-section p {
-  max-width: 775px;
+section .self-description {
+  max-width: 40em;
   line-height: 2;
   padding: 0 20px;
   margin-bottom: 30px;
@@ -225,7 +234,7 @@ section p {
   max-height: 200px;
   max-width: 200px;
   border-radius: 50%;
-  margin: 20px;
+  margin: 1em;
 }
 
 #aboutMe {
@@ -258,12 +267,17 @@ section p {
   margin: 15px 0px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   section {
     padding: 50px 20px;
   }
   header {
     padding: 0.2rem 1rem;
+  }
+  .list {
+    -webkit-box-pack: column;
+        -ms-flex-pack: column;
+            justify-content: column;
   }
   .site-name {
     font-size: 1rem;
