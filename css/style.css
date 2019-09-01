@@ -274,11 +274,6 @@ section .self-description {
   header {
     padding: 0.2rem 1rem;
   }
-  .list {
-    -webkit-box-pack: column;
-        -ms-flex-pack: column;
-            justify-content: column;
-  }
   .site-name {
     font-size: 1rem;
   }
