@@ -156,7 +156,8 @@ section {
 //Project Page
 
 .grid-container {
-  // border: 1px solid white;
+  margin: 0 auto;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;

@@ -193,6 +193,8 @@ section {
 }
 
 .grid-container {
+  margin: 0 auto;
+  padding: 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
