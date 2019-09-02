@@ -37,8 +37,8 @@ i {
 
 a:hover,
 i:hover {
-  -webkit-transform: scale(1.08);
-          transform: scale(1.08);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 ul {
@@ -192,6 +192,58 @@ section {
   }
 }
 
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.grid-container img {
+  display: block;
+  width: 100%;
+}
+
+.grid-container li {
+  margin: 1rem;
+  position: relative;
+}
+
+.card-description {
+  margin-bottom: 80px;
+}
+
+.button {
+  margin: 0;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 1rem;
+}
+
+.button a {
+  color: #fcfcfc;
+}
+
+.button i {
+  font-size: 2.5rem;
+}
+
+.button-one {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.button-two {
+  position: absolute;
+  left: 4rem;
+  bottom: 0;
+}
+
 .contact-grid {
   width: 100%;
   display: -webkit-box;
@@ -244,7 +296,7 @@ section .self-description {
 
 #contact {
   text-align: center;
-  background: #D7D7D7;
+  background: #d7d7d7;
   color: #121212;
 }
 
