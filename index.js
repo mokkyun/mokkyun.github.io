@@ -1,4 +1,4 @@
-//Intersection Observer API for changing navbar on scroll
+//Intersection Observer API for changing navbar background colour on scroll
 
 const header = document.querySelector("header");
 const hero = document.querySelector("#hero");
