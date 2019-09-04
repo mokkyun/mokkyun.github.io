@@ -333,6 +333,7 @@ section .self-description {
   }
   .nav-link {
     font-size: 0.8rem;
+    padding: 0.6rem;
   }
   .hero {
     min-height: 600px;
