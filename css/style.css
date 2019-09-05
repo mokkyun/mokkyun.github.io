@@ -320,7 +320,7 @@ section .self-description {
   margin: 15px 0px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   section {
     padding: 50px 20px;
   }
