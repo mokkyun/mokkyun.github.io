@@ -278,10 +278,10 @@ section .title {
 
 section .self-description {
   max-width: 40em;
-  line-height: 2;
+  line-height: 1.8;
   padding: 0 20px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: justify;
 }
 
 .myPicture {
