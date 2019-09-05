@@ -245,8 +245,8 @@ section {
 }
 
 #aboutMe {
-  background: #060606; //Consider #444444 or #666666
-  color: #fcfcfc;
+  background-color: $sectionAlt-color;
+  color: $text-color;
 }
 
 //Contact Page
