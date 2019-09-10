@@ -203,6 +203,7 @@ section {
   position: absolute;
   left: 4rem;
   bottom: 0;
+  margin: 0 1rem;
 }
 // About Page
 
@@ -301,5 +302,8 @@ section {
   i {
     font-size: 38px;
     text-align: center;
+  }
+  .button-two {
+    margin: 0 0.5rem;
   }
 }
