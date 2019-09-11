@@ -336,9 +336,6 @@ section .self-description {
     padding: 0.6rem;
     letter-spacing: 1.5px;
   }
-  .hero {
-    min-height: 600px;
-  }
   .hero h1 {
     font-size: 48px;
   }
