@@ -159,7 +159,9 @@ section {
   background-size: cover;
   z-index: -1;
   background-color: #555;
-  background-image: url("../img/stars.jpg");
+  background-image: url("../img/stars1920x1280.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .hero h1 {
