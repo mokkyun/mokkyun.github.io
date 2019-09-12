@@ -130,6 +130,7 @@ section {
     background-size: cover;
     z-index: -1;
     background-color: $bgImage-color;
+    background-image: url("../img/stars.jpg");
   }
   h1 {
     font: bold 60px "Raleway";
@@ -167,7 +168,6 @@ section {
   }
   li {
     margin: 1rem;
-    // border: 1px solid red;
     position: relative;
   }
 }
