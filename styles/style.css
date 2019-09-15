@@ -380,6 +380,8 @@ section .self-description {
 
 .contact-description {
   margin: 0.5rem 1rem;
+  max-width: 36em;
+  text-align: left;
 }
 
 @media screen and (max-width: 767px) {
