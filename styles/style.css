@@ -379,7 +379,7 @@ section .self-description {
 }
 
 .contact-description {
-  margin: 0.5rem 1rem;
+  margin: 0 1rem;
   padding: 0.5rem;
   max-width: 36em;
   text-align: left;
