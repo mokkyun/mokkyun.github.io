@@ -319,8 +319,8 @@ section {
     border-radius: 1rem;
     &:hover,
     &:focus {
-      background: darken($hr-color, 10%);
-      border: 1px solid darken($hr-color, 10%);
+      background: darken($hr-color, 15%);
+      border: 1px solid darken($hr-color, 15%);
     }
   }
 }

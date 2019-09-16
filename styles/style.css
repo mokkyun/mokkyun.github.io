@@ -374,8 +374,8 @@ section .self-description {
 }
 
 .form-container .form-button:hover, .form-container .form-button:focus {
-  background: #32408f;
-  border: 1px solid #32408f;
+  background: #2b387c;
+  border: 1px solid #2b387c;
 }
 
 .contact-description {
