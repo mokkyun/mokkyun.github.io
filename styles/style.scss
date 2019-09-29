@@ -229,7 +229,7 @@ hr {
 
 section {
   .title {
-    font: bold 32px "Open-Sans", sans-serif;
+    font: bold 2rem "Open-Sans", sans-serif;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -363,7 +363,8 @@ section {
     margin: 0 0.5rem;
   }
 
-  .self-description {
-    font-size: 0.9rem;
+  .self-description,
+  .contact-description {
+    font-size: 0.95rem;
   }
 }
