@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width" initial-scale="1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Description" content="Personal website for Mo Jama">
   <title>Mo Jama</title>
   <link rel="stylesheet" type="text/css" href="./styles/style.css">
@@ -98,12 +98,12 @@
     </p>
     <div class="form-container">
       <form name="contact" class="form" method="POST" data-netlify="true">
-        <label for="email">Name</label>
-        <input type="text" name="name" required>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required>
         <label for="email">Email</label>
-        <input type="email" name="email" required>
+        <input id="email" type="email" name="email" required>
         <label for="message">Message</label>
-        <textarea rows="3" name="message" required></textarea>
+        <textarea id="message" rows="3" name="message" required></textarea>
         <button type="submit" class="form-button">Submit</button>
       </form>
     </div>
