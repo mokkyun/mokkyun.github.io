@@ -220,6 +220,10 @@ section {
   margin-bottom: 80px;
 }
 
+a {
+  color: #fcfcfc;
+}
+
 .button {
   margin: 0;
   font-size: 1rem;
@@ -228,10 +232,6 @@ section {
   text-decoration: none;
   font-weight: 700;
   border-radius: 1rem;
-}
-
-.button a {
-  color: #fcfcfc;
 }
 
 .button i {
